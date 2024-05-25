@@ -6,10 +6,10 @@ const app= express();
 app.use(cors());
 app.use(bodyparser.json());
 const connection= mysql.createConnection({
-    host:'localhost',
-    user:'root',
-    password:'root',
-    database:'designflex',
+    host:'b0sjc07pixwrkzasi8sr-mysql.services.clever-cloud.com',
+    user:'uyvntgepm0wpcmly',
+    password:'hu3aIEwpRquQbHT5CEhE',
+    database:'b0sjc07pixwrkzasi8sr',
     port:3306
 });
 connection.connect(err=>{
